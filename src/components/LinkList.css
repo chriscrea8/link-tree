@@ -1,0 +1,23 @@
+.link-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.link-list .link {
+    width: 80%;
+    background: #EAECF0;
+    padding: 14px 0px;
+    margin: 12px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #101828;
+    font-size: 12px;
+    font-weight: 500;
+}
