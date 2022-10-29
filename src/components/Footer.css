@@ -1,0 +1,36 @@
+.footer {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    border-top: 1px solid #EAECF0;
+    padding: 32px 0;
+}
+
+.footer p {
+    margin: 0;
+    color: #667085;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 700px) {
+    .footer {
+            width: 100%;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding-bottom: 0px;
+            margin-top: 50px;
+    }
+
+    .footer p {
+        margin: 20px 0px;
+        font-size: 12px;
+    }
+
+    .footer img {
+        width: 150px;
+    }
+}
