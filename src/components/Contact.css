@@ -47,13 +47,14 @@ form div:first-of-type {
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: space-between;
 }
 
 form div:first-of-type div {
-    width: 50%;
+    width: 49%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 form div:nth-of-type(4) {
