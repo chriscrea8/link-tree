@@ -24,13 +24,15 @@ const Contact = () => {
         </div>
         <div>
           <label htmlFor="message">Message</label>
-          <textarea name="message" id="message" cols="30" rows="5" placeholder="Send me a message and Ill reply you as soon as possible..."></textarea>
+          <textarea name="message" id="message" cols="30" rows="5" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
         </div>
-        <div>
+        <div className="checkbox_div">
           <input type="checkbox" id="checkbox" />
-          <label htmlFor="checkbox">You agree to providing your data to name who may contact you.</label>
+          <label htmlFor="checkbox">You agree to providing your data to Christian who may contact you.</label>
         </div>
-        <button id="btn__submit">Send message</button>
+        <button className="msg_button" id="btn__submit">
+          Send message
+        </button>
       </form>
     </div>
   )

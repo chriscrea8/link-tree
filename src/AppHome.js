@@ -50,7 +50,6 @@ const AppHome = () => {
       <Profile />
       <LinkList items={items} />
       <SocialIcons />
-      <Footer />
     </div>
   )
 }
