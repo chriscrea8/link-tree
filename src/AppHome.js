@@ -4,7 +4,6 @@ import './App.css'
 import './components/LinkList.css'
 import Profile from './components/Profile'
 import SocialIcons from './components/SocialIcons'
-import Footer from './components/Footer'
 
 const items = [
   {
