@@ -1,0 +1,85 @@
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 10%;
+}
+
+.contact h1 {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.contact span:first-of-type {
+    margin-bottom: 35px;
+    margin-left: 0px;
+}
+
+.contact div {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    border: 1px solid #D0D5DD;
+    padding: 7px 14px;
+    border-radius: 5px;
+}
+
+textarea {
+    padding: 10px 14px;
+}
+
+textarea::placeholder, 
+input::placeholder {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form div:first-of-type {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+form div:first-of-type div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form div:nth-of-type(4) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.contact form div:last-of-type label{
+    margin-bottom: 0px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+Label {
+    font-size:12px;
+    margin-bottom: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 7px 14px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background: #1570EF;
+    color: #fff;
+}
